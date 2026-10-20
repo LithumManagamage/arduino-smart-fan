@@ -23,4 +23,4 @@ The Arduino reads temperature and motion sensor inputs and uses programmed condi
 
 ## Design and Implementation
 <img width="440" height="350" alt="image" src="https://github.com/user-attachments/assets/66d2ef43-438f-4f87-9d1d-5312c49b7b90" />
-
+Refer to the following link to read the respective code for the smart fan control (https://github.com/LithumManagamage/arduino-smart-fan/blob/main/Code)
