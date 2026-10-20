@@ -19,8 +19,8 @@ This project involves developing an Arduino-based fan system that uses temperatu
 - Power supply and connecting wires
 
 ## How it works
-The Arduino reads temperature and motion sensor inputs and uses programmed conditions to control the fan and LEDs. PWM can be used to adjust the fan speed.
+The Arduino reads temperature and motion sensor inputs and uses programmed conditions to control the fan and LEDs. The fan remains OFF when the temperature is below 10°C, operates at low speed when the temperature is between 10°C and below 25°C, runs at medium speed when the temperature is between 25°C and below 30°C, and operates at high speed when the temperature is 30°C or above. PWM is used to adjust the fan speed according to the temperature readings. When motion is detected, the system activates the appropriate outputs. When motion stops, the fan remains ON for an additional 15 seconds before turning OFF.
 
 ## Design and Implementation
 <img width="440" height="350" alt="image" src="https://github.com/user-attachments/assets/66d2ef43-438f-4f87-9d1d-5312c49b7b90" />
-Code/
+
